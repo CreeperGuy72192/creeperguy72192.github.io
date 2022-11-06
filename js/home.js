@@ -3,5 +3,5 @@ function About() {
 }
 
 function Home() {
-  window.location.href = "home.html";
+  window.location.href = "index.html";
 }
