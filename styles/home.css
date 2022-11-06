@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(27, 27, 27);
+  padding:0;
+  margin:0;
+}
+
+.navbar{
+  background-color: rgb(41, 41, 41);
+  color:white;
+  font-family: Roboto;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbarbutton{
+  background-color: rgb(85, 85, 85);
+  color: white;
+  font-family: Roboto;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 10px;
+  border-radius: 3px;
+
+  transition: background-color 0.15s;
+}
+
+.navbarbutton:hover{
+  background-color: rgb(110, 110, 110);
+}
+
+.navbarbutton:active{
+  background-color:rgb(133, 133, 133) ;
+}
+
+.textbox{
+  resize: none;
+  color: white;
+  background-color: rgb(85, 85, 85);
+  font-family: Roboto;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
